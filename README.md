@@ -35,11 +35,7 @@ VProfile application.
 
 ![Animated CI/CD architecture
 diagram](./assets/vprofile-cicd-animation.gif)
-
-The GIF above is an animated, perspective-style overview. GitHub README
-rendering does not execute interactive 3D scenes; an animated GIF is a
-portable way to show motion. The Mermaid diagram below provides a
-readable, text-based architecture.
+----------------------------------------------------------------------------------------------------------------------
 
 ``` mermaid
 flowchart TD
