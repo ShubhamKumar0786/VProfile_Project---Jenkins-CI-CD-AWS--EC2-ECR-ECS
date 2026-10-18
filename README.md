@@ -517,17 +517,7 @@ unless configured otherwise.
                                       health checks, and security groups
   -----------------------------------------------------------------------
 
-## Cleanup
 
-To avoid ongoing AWS charges, delete resources only after confirming
-they are no longer needed: - ECS service/cluster and related load
-balancer/network resources. - ECR images/repository. - EC2 instances and
-attached storage. - SonarQube/Nexus instances and their storage. - IAM
-access keys and unused roles/policies. - Security groups and networking
-resources created only for this project.
-
-Keep any artifacts, logs, screenshots, and configuration backups you
-need before deletion.
 
 ## Project status
 
@@ -538,6 +528,3 @@ environment before using it for production.
 
 ------------------------------------------------------------------------
 
-**Author note:** Replace environment-specific values and add your own
-screenshots (with secrets redacted) before publishing this repository
-publicly.
